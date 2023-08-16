@@ -1,0 +1,82 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+.Place_section{
+    line-height: 1;
+    background: rgb(223, 233, 236);
+    background-image: url(/img/place/ecopy.png);
+    background-position: center;
+    background-size: cover;
+}
+/* .Place_section img{
+    
+} */
+
+.Place{
+   display: grid;
+    justify-content: center;
+}
+
+.AA{
+    margin: 15px;
+    display: grid;
+    justify-content: center;
+}
+
+.AA p{
+    color: rgb(59, 159, 218);
+}
+.AA hr{
+    color: rgb(88, 125, 206);
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.imgbx{
+    margin: 30px;
+    background: rgb(255, 255, 255);
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 360px;
+width: 260px;
+border-radius: 20px;
+transition: 0.5s;
+}
+.imgbx:hover{
+    box-shadow:0 0 30px rgb(88, 125, 206) ;
+    margin-top: -0.2px;
+}
+
+.imgbox1{
+    justify-content: center;
+    display: flex;
+    
+}
+.BBimg{
+    height: 200px;
+    width: 140px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+}
+.imgbox2{
+    margin-top: 10px;
+    line-height: 2;
+    letter-spacing: 1;
+}
+.imgbox2 h2{
+    color: rgb(96, 175, 206);
+}
+
+.imgbox2 p{
+    color: rgb(68, 165, 168);
+}
+
